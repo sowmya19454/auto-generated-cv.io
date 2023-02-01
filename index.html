@@ -12,55 +12,115 @@
     <main>
         <div class="left">
             <form>
+                <fieldset>
+                <table> 
+                <tr>
+                    
+            </tr>
+                    <tr>
+                        <fieldset>
+                            <td>
+                                <label for="fname">Name:&nbsp;</label><br>
+                                <label for="fname">Email:&nbsp;</label><br>
+                                <label for="fname">Phone:&nbsp;</label><br>
+                                <label for="fname">Github:&nbsp;</label><br>
+                                <label for="fname">Linkedin:&nbsp;</label><br>
+                            </td>
+                            <td>
+                                <input type="text" name="name" id="name" placeholder="degree" /><br>
+                                <input type="text" name="name" id="name" placeholder="degree" /><br>
+                                <input type="text" name="name" id="name" placeholder="degree" /><br>
+                                <input type="text" name="name" id="name" placeholder="degree" /><br>
+                                <input type="text" name="name" id="name" placeholder="degree" /><br>
+                            </td>
+                        </fieldset>
+                    </tr>  
                 <!-- Name , Email , Phone , Github , Linkedin -->
-                <fieldset>
-                    <legend>Education</legend>
-                    <!-- <form>
-                        <label for="fname">degree:</label><br>
-                        <input type="text" id="fname" name="fname" value="John"><br>
-                        <label for="lname">Last name:</label><br>
-                        <input type="text" id="lname" name="lname" value="Doe">
-                      </form> -->
-
-
+                
+                        <tr>
+                        <td><legend>Education</legend></td></tr>
+                        <tr>
+                            <fieldset>
+                            <td>
+                       <div> <label for="fname">degree:&nbsp;</label></div>
+                             <label for="fname">college name:&nbsp;</label>
+                           
+                            </td>
+                            <td>
+                             <!-- <div class="col-6 col-6-small"> -->
+                            <input type="text" name="name" id="name" placeholder="degree" /><br>
+                        
+                              <!-- <div class="col-6 col-6-small"> -->
+                            <input type="text" name="name" id="name" placeholder="degree" />
+                            <input type="text" name="name" id="name" placeholder="degree" />
+                            </td>
+                        </fieldset>
+                        </tr> 
                     
-                      <div><label>Degree</label>
-                    <input type="text" name="name" id="name" placeholder="degree" /></div><br>
-                    <div><label>College&nbsp;</label>
-                    <input type="text" name="name" id="name" placeholder="degree" /></div><br>
-                    <div><label>Starting year</label>
-                    <input type="text" name="name" id="name" placeholder="degree" /></div><br>
-                    <div><label>Ending year&nbsp;</label>
-                    <input type="text" name="name" id="name" placeholder="degree" /></div><br>
-                    <div><label>CGPA&nbsp;</label>
-                    <input type="text" name="name" id="name" placeholder="degree" /></div><br>
-
-                    <!-- Degree , College , Starting Year , Passing Year , CGPA -->
+                   
+                        <tr>
+                            <td>
+                        <legend>Skills</legend>
+                            </td>
+                    </tr>
+                            <tr>
+                                <fieldset>
+                                <td>
+                                    <label for="fname">Skills:&nbsp;</label>
+                                </td>
+                                <td>
+                                    <input type="text" name="name" id="name" placeholder="degree" height="200%"/>
+                                </td>
+                            </fieldset>
+                            </tr>  
+                        <!-- skills -->
+                   
                     
-                </fieldset>
-                <fieldset>
-                    <legend>Skills</legend>
-                    <div><label>Degree</label>
-                    <input type="text" name="name" id="name" placeholder="degree" /></div><br>
-                    <!-- skills -->
-                </fieldset>
-                <fieldset>
-                    <legend>Projects</legend>
-                    <input type="text" name="name" id="name" placeholder="degree" /></div><br>
-                    <div><label>Project</label>
-                        <input type="text" name="name" id="name" placeholder="degree" /></div><br>
-                    <div><label>Description</label> 
-                        <input type="text" name="name" id="name" placeholder="degree" /></div><br>
-                    <div><label>Link</label> 
-                        <input type="text" name="name" id="name" placeholder="degree" /></div><br>
-                    <!-- Project , Description , Link -->
-                </fieldset>
-                <fieldset>
-                    <legend>Experience</legend>
-                    <div><label>Experience</label> 
-                    <input type="text" name="name" id="name" placeholder="degree" /></div><br>
-                    <!-- Company , Designation , Duration , Description -->
-                </fieldset>
+                        <tr>
+                            <td>
+                        <legend>Projects</legend></tr>
+                        <!-- Project , Description , Link -->
+                            </td>
+    
+                        <tr>
+                            <fieldset>
+                            <td>
+                                <label for="fname">Project:&nbsp;</label>
+                                <label for="fname">Description:&nbsp;</label>
+                                <label for="fname">Link:&nbsp;</label>
+                            </td>
+                            <td>
+                                <input type="text" name="name" id="name" placeholder="degree" />
+                                <input type="text" name="name" id="name" placeholder="degree" />
+                                <input type="text" name="name" id="name" placeholder="degree" />
+                            </td>
+                        </fieldset>
+                        </tr>
+                   
+                   
+                        <tr>
+                            <td>
+                        <legend>Experience</legend>
+                            </td>  
+                        </tr>
+                        <!-- Company , Designation , Duration , Description -->
+                            <tr>
+                                <fieldset>
+                                <td>
+                                    <label for="fname">Company:&nbsp;</label>
+                                    <label for="fname">Designation:&nbsp;</label>
+                                    <label for="fname">Duration:&nbsp;</label>
+                                    <label for="fname">Description:&nbsp;</label>
+                                </td>
+                                <td>
+                                    <input type="text" name="name" id="name" placeholder="degree" />
+                                    <input type="text" name="name" id="name" placeholder="degree" />
+                                    <input type="text" name="name" id="name" placeholder="degree" />
+                                    <input type="text" name="name" id="name" placeholder="degree" />
+                                </td>
+                            </fieldset>
+                            </tr>
+                        </table>
                 <button type="submit" class="btn">submit</button>
                 <button type="reset" class="btn">reset</button>
                 <button class="btn" onclick="handleLeft()"><<</button>
