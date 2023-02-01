@@ -92,6 +92,38 @@ main>.right>.block1{
     color: gray;
     width: 60vw;
 }
+main>.right>.block2{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    color: gray;
+    width: 60vw;
+}
+main>.right>.block3{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    color: gray;
+    width: 60vw;
+}
+main>.right>.block4{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    color: gray;
+    width: 60vw;
+}
+main>.right>.block5{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    color: gray;
+    width: 60vw;
+}
 .print{
     display: none;
 }
