@@ -20,6 +20,7 @@ body{
 }
 label {
     float: left;
+    text-align: center;
     display: block;
   }
   
@@ -54,6 +55,10 @@ main>.left legend{
     color: black;
     font-weight: 600;
     margin: 0.5rem 0;
+}
+main>.left label{
+    color: black;
+    text-align: center;
 }
 main>.left fieldset{
     border: none;
