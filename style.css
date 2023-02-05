@@ -132,3 +132,6 @@ main>.right>.block5{
 .print{
     display: none;
 }
+#display-email{
+    color: aqua;
+}

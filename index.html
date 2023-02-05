@@ -20,18 +20,18 @@
                     <tr>
                         <fieldset>
                             <td>
-                                <label for="fname">Name:&nbsp;</label><br>
-                                <label for="fname">Email:&nbsp;</label><br>
-                                <label for="fname">Phone:&nbsp;</label><br>
-                                <label for="fname">Github:&nbsp;</label><br>
-                                <label for="fname">Linkedin:&nbsp;</label><br>
+                                <label>Name:&nbsp;</label><br>
+                                <label>Email:&nbsp;</label><br>
+                                <label>Phone:&nbsp;</label><br>
+                                <label>Github:&nbsp;</label><br>
+                                <label>Linkedin:&nbsp;</label><br>
                             </td>
                             <td>
-                                <input type="text" name="name" id="name" placeholder="degree" /><br>
-                                <input type="text" name="name" id="name" placeholder="degree" /><br>
-                                <input type="text" name="name" id="name" placeholder="degree" /><br>
-                                <input type="text" name="name" id="name" placeholder="degree" /><br>
-                                <input type="text" name="name" id="name" placeholder="degree" /><br>
+                                <input type="text" name="display-name" id="Name" placeholder="name" /><br>
+                                <input type="email" name="display-email" id="Email" placeholder="email" /><br>
+                                <input type="tel" name="display-phone" id="Phone" placeholder="phone nummber" /><br>
+                                <input type="url" name="display-github" id="Github" placeholder="githublink" /><br>
+                                <input type="url" name="display-linkedin" id="Linkedin" placeholder="linkedin profile" /><br>
                             </td>
                         </fieldset>
                     </tr>  
@@ -42,8 +42,8 @@
                         <tr>
                             <fieldset>
                             <td>
-                       <div> <label for="fname">degree:&nbsp;</label></div>
-                             <label for="fname">college name:&nbsp;</label>
+                       <div> <label>degree:&nbsp;</label></div>
+                             <label>college name:&nbsp;</label>
                            
                             </td>
                             <td>
@@ -66,7 +66,7 @@
                             <tr>
                                 <fieldset>
                                 <td>
-                                    <label for="fname">Skills:&nbsp;</label>
+                                    <label>Skills:&nbsp;</label>
                                 </td>
                                 <td>
                                     <input type="text" name="name" id="name" placeholder="degree" height="200%"/>
@@ -85,9 +85,9 @@
                         <tr>
                             <fieldset>
                             <td>
-                                <label for="fname">Project:&nbsp;</label>
-                                <label for="fname">Description:&nbsp;</label>
-                                <label for="fname">Link:&nbsp;</label>
+                                <label>Project:&nbsp;</label>
+                                <label>Description:&nbsp;</label>
+                                <label>Link:&nbsp;</label>
                             </td>
                             <td>
                                 <input type="text" name="name" id="name" placeholder="degree" />
@@ -107,10 +107,10 @@
                             <tr>
                                 <fieldset>
                                 <td>
-                                    <label for="fname">Company:&nbsp;</label>
-                                    <label for="fname">Designation:&nbsp;</label>
-                                    <label for="fname">Duration:&nbsp;</label>
-                                    <label for="fname">Description:&nbsp;</label>
+                                    <label>Company:&nbsp;</label>
+                                    <label>Designation:&nbsp;</label>
+                                    <label>Duration:&nbsp;</label>
+                                    <label>Description:&nbsp;</label>
                                 </td>
                                 <td>
                                     <input type="text" name="name" id="name" placeholder="degree" />
@@ -121,36 +121,20 @@
                             </fieldset>
                             </tr>
                         </table>
-                <button type="submit" class="btn">submit</button>
+                <button type="submit" class="btn" onclick="handleSubmit()">submit</button>
                 <button type="reset" class="btn">reset</button>
                 <button class="btn" onclick="handleLeft()"><<</button>
             </form>
         </div>
         <div class="right">
-            <div class="block1">
-                <!-- Name -->
-                <!--Email , Phone , Github , Linkedin  -->
-            </div>
-            <div class="block2">
-                <h2>Education</h2>
-                <link rel="stylesheet" href="style.css">
-                <hr style="width:100%;text-align:left;margin-left:0">
-            </div>
-            <div class="block3">
-                <h2>skills</h2>
-                <link rel="stylesheet" href="style.css">
-                <hr style="width:100%;text-align:left;margin-left:0">
-            </div>
-            <div class="block4">
-                <h2>Project</h2>
-                <link rel="stylesheet" href="style.css">
-                <hr style="width:100%;text-align:left;margin-left:0">
-            </div>
-            <div class="block5">
-                <h2>Experience</h2>
-                <link rel="stylesheet" href="style.css">
-                <hr style="width:100%;text-align:left;margin-left:0">
-            </div>
+        <div id="display-name"></div>
+        <a id="display-email" ></a>    
+        <div id="display-phone"></div>
+        <div id="display-github"></div>
+        <div id="display-linkedin"></div>
+        <div id="display-name"></div>
+        <div id="display-name"></div>
+        
             <button class="btn print" onclick="handlePrint()">Print</button>
         </div>
     </main>
