@@ -115,10 +115,17 @@ function handleLeft() {
   const right = document.querySelector(".right");
   const print = document.querySelector(".print");
   // write more codes here
+  left.style.display = "none";
+  right.style.width = "100%";
+  print.style.display = "block";
 }
 function handlePrint() {
   const right = document.querySelector(".right");
   const left = document.querySelector(".left");
   const print = document.querySelector(".print");
   // write more codes here
+  window.print();
+  left.style.display = "block";
+  right.style.width = "50%";
+  print.style.display = "none";
 }
